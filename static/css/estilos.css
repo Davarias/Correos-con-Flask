@@ -1,0 +1,79 @@
+@import url(//db.onlinewebfonts.com/c/f89e4b435094ede19a8f92e88604c203?family=Core+Sans+G);
+
+@font-face {
+    font-family: "Core Sans G"; 
+    src: url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.eot"); 
+    src: url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f89e4b435094ede19a8f92e88604c203.svg#Core Sans G") format("svg"); 
+}
+
+.fondo{
+    background-image: url(../img/fondo3.jpg); 
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    
+    background-attachment: fixed;
+}
+
+button{
+    width: 80%;
+    height: 40pt;
+    border-radius: 50pt; 
+    background-color: #e4c645;
+    margin-bottom: 30pt;
+    color: black;
+   font-family: "Core Sans G";
+    text-align: center;
+    font-size: 18pt; 
+}
+
+.atras_Formulario{
+     
+    background-color: black;    
+    top: 10px;  
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 250%;
+    margin: 10% auto;
+    box-shadow: 6pt 6pt 15pt  #42403a;
+    border-radius: 15pt;
+     opacity: 0.8; 
+}
+
+input[type=text]{
+    color: white;
+    font-family: "Core Sans G"; 
+    background-color: #979292;
+    font-size: 18pt;
+    padding-left: 10pt;
+}
+
+input::placeholder{
+    color: white;
+}
+
+body{
+    color: white;
+    font-family: "Core Sans G";
+    text-align: center;
+    font-size: 15pt;
+}
+
+h3{
+    margin-left: 30pt;
+}
+
+.entrada{
+    width: 80%;
+    height: 30pt;
+    margin-bottom: 30pt;
+}
+
+.diseño{
+    /* opacity: 0.8; */
+    border-radius: 50pt;   
+}
+
